@@ -1,0 +1,21 @@
+{
+  "name": "next-hacker-news-clone",
+  "version": "1.0.0",
+  "description": "a hacker news clone made with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env node server.js",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "build": "cross-env next build"
+  },
+  "author": "dauda hammed oluwatoyin",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sw-precache-webpack-plugin": "^1.0.0"
+  }
+}
